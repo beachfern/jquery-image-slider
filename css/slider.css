@@ -1,0 +1,41 @@
+#slider {
+  width: 640px;
+  height: 427px;
+  overflow: hidden;
+  margin: 30px auto;
+}
+#slider > img {
+  width: 640px;
+  height: 427px;
+  float: left;
+  display: hidden;
+}
+a {
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.wrapper {
+  width: 640px;
+  margin: 0 auto;
+}
+a.left {
+  float: left;
+}
+a.right{
+  float: right;
+}
+.highlight {
+  background-color: #ddd;
+  padding: 6px 11px;
+}
+h1 {
+  margin: 30px auto;
+  text-align: center;
+}
+h1,
+a {
+  color: #666;
+  font-family: 'Khula', sans-serif;
+}
